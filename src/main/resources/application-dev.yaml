@@ -11,6 +11,6 @@ spring:
       ddl-auto: create-drop
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://postgres_task:5432/task_manager
+    url: jdbc:postgresql://postgres_db:5432/task_manager
     username: postgres
     password: password
