@@ -1,0 +1,16 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /api/v1
+spring:
+  application:
+    name: task-management-backend
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://postgres_task:5432/task_manager
+    username: postgres
+    password: password
